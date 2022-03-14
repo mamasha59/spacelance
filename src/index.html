@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spacelance</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&family=Roboto:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__body">
+                  <div class="header__logo">
+                      <img src="<%=require('./img/icons/logo.svg')%>" alt="Главное лого сайта Спейс Лэйн">
+                  </div>
+                  <div class="header__block">
+                    <nav class="header__menu">
+                        <ul class="header__menu-lists">
+                            <li class="header__menu-list">Home</li>
+                            <li class="header__menu-list">Find work</li>
+                            <li class="header__menu-list">Find Freelancers</li>
+                            <li class="header__menu-list">Log In</li>
+                            <li class="header__menu-list">Sign Up</li>
+                        </ul>
+                    </nav>
+                    <button class="header__button-post">Post a project</button>
+
+                    <div class="header__burger-button">
+                        <span class="header__burger-strip"></span>
+                     </div>
+                   </div>
+
+                   <div class="header__burger-menu">
+                        <ul class="header__menu-lists burger-lists">
+                            <li class="header__menu-list">Home</li>
+                            <li class="header__menu-list">Find work</li>
+                            <li class="header__menu-list">Find Freelancers</li>
+                            <li class="header__menu-list">Log In</li>
+                            <li class="header__menu-list">Sign Up</li>
+                        </ul>
+                        <div class="header__burger-button header__burger-close">
+                            <span class="header__burger-strip header__burger-close-strip"></span>
+                         </div>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+        <main class="main">
+          <section class="look">
+            <div class="look__container container">
+                <div class="look__body">
+                    <div class="look__block-info">
+                        <h1 class="look__title">Are you looking for Freelancers?</h1>
+                        <p class="look__description">Hire Great Freelancers, Fast. Spacelance helps you hire elite freelancers at a moment's notice</p>
+                        <div class="look__block-find">
+                            <button class="look__hire-button">Hire a freelancer</button>
+                            <form action="" class="look__form">
+                                <input placeholder="search freelance work" type="text" class="look__search-input">
+                                <img class="look__img-for-input" src="<%=require('./img/icons/imgLupa.svg')%>" alt="иконка лупы-поиск" class="look__img-look">
+                            </form> 
+                        </div>
+                    </div>
+                    <div class="look__blok-img">
+                        <img src="<%=require('./img/bigImgFreelance.svg')%>" alt="Иллюстрация фрилансера ">
+                    </div>
+                </div>
+            </div>
+          </section>
+          <section class="guarantee">
+              <div class="guarantee__container container">
+                  <div class="guarantee__body">
+                      <div class="guarantee__item">
+                          <div class="guarantee__img-block">
+                              <img src="<%=require('./img/icons/account.svg')%>" alt="иконка надежности создания аккаунта - замок">
+                          </div>
+                          <div class="guarantee__title">Create Account</div>
+                          <div class="guarantee__description">First you have to create a account  here</div>
+                      </div>
+                      <div class="guarantee__item">
+                        <div class="guarantee__img-block">
+                            <img src="<%=require('./img/icons/search.svg')%>" alt="иконка поиска фрилансера">
+                        </div>
+                        <div class="guarantee__title">Search work</div>
+                        <div class="guarantee__description">Search the best freelance work here</div>
+                    </div>
+                    <div class="guarantee__item">
+                        <div class="guarantee__img-block">
+                            <img src="<%=require('./img/icons/safe.svg')%>" alt="иконка сохранения работы">
+                        </div>
+                        <div class="guarantee__title">Save and apply</div>
+                        <div class="guarantee__description">Apply or save and start your work</div>
+                    </div>
+                  </div>
+              </div>
+          </section>
+          <section class="about">
+            <div class="about__container container">
+                <div class="about__body">
+                 <div class="about__amount-block">
+                     <div class="about__img-block">
+                         <img src="<%=require('./img/woman.svg')%>" alt="девушка презентует результат">
+                          
+                             <div class="about__amount about__first_number">
+                                 <div class="about__amount-title">500+</div>
+                                 <div class="about__amount-subtitle">freelancers</div>
+                             </div>
+                             <div class="about__amount about__second_number">
+                                 <div class="about__amount-title">300+</div>
+                                 <div class="about__amount-subtitle">freelance work Posted</div>
+                             </div>
+
+                     </div>
+                   
+                 </div>
+                 <div class="about__find">
+                     <h2 class="about__title">Find The Best <span>Freelancers</span> Here </h2>
+                     <p class="about__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut erat bibendum ornare urna, cursus eget convallis. Feugiat imperdiet posuere justo, ultrices interdum
+                         sed orci nunc, mattis. Ipsum viverra viverra neque adipiscing arcu, quam dictum. Dui mi viverra dui, sit accumsan, tincidunt massa. Dui cras magnis.</p>
+                 </div>
+                </div>
+            </div>
+          </section>
+          <section class="works">
+              <div class="works__container container">
+                  <div class="works__body">
+                      <div class="works__block">
+                         <div class="works__block-titles">
+                            <p class="works__subtitle">The latest freelance work!</p>
+                            <h3 class="works__title">Recently Posted <span>Works</span></h3>
+                        </div>
+                        <div class="works__arrows-slide">
+                            <div class="works__direction">
+                                <img src="<%=require('./img/icons/arrowLeft.svg')%>" alt="стрелка слайда в лево">
+                            </div>
+                            <div class="works__direction">
+                                <img src="<%=require('./img/icons/arrowRight.svg')%>" alt="стрелка слайда в право">
+                            </div>
+                        </div>
+                     </div>
+
+                    <div class="works__items">
+                         
+                         <div class="works__item">
+                             <div class="works__item-logo">
+                                 <img src="<%=require('./img/icons/design.svg')%>" alt="иконка товара">
+                             </div>
+                             <div class="works__item-title">Logo Design</div>
+                             <div class="works__item-description">Need a professional logo with writing underneath for our jewellery company</div>
+                             <div class="works__item-block-utils">
+                                 <div class="works__item-price">Highest bid
+                                    $500</div>
+                                  <div class="works__item-aply">Apply now</div>
+                             </div>
+                         </div>
+                     
+                        <div class="works__item">
+                                <div class="works__item-logo">
+                                    <img src="<%=require('./img/icons/graphic.svg')%>" alt="иконка товара">
+                                </div>
+                                <div class="works__item-title">Graphic Design</div>
+                                <div class="works__item-description">We need a graphic designer with UI/UX skills for our Furniture company</div>
+                                <div class="works__item-block-utils">
+                                    <div class="works__item-price">Highest bid
+                                    $500</div>
+                                    <div class="works__item-aply">Apply now</div>
+                                </div>
+                        </div>
+
+                        <div class="works__item">
+                                <div class="works__item-logo">
+                                    <img src="<%=require('./img/icons/seo.svg')%>" alt="иконка товара">
+                                </div>
+                                <div class="works__item-title">Need a SEO</div>
+                                <div class="works__item-description">Need a SEO for our company who will let our company to a higher level</div>
+                                <div class="works__item-block-utils">
+                                    <div class="works__item-price">Highest bid
+                                    $500</div>
+                                    <div class="works__item-aply">Apply now</div>
+                                </div>
+                        </div>
+
+                    </div>
+                  </div>
+              </div>
+          </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container container">
+               <div class="footer__body">
+                   <div class="footer__togline-block">
+                       <div class="footer__logo">
+                           <img src="<%=require('./img/logoFooter.svg')%>" alt="логотип в низу страницы">
+                       </div>
+                       <p class="footer__togline">Powerful Freelance Marketplace System with ability to change the Users (Freelancers & Clients)
+                       </p>
+                       <div class="footer__social-media-block">
+                           <div class="footer__icon">
+                               <img src="<%=require('./img/icons/instagramIcon.svg')%>" alt="иконка инстаграмма">
+                           </div>
+                           <div class="footer__icon">
+                            <img src="<%=require('./img/icons/twitterIcon.svg')%>" alt="иконка твитерра">
+                            </div>
+                            <div class="footer__icon">
+                                <img src="<%=require('./img/icons/facebookIcon.svg')%>" alt="иконка фейсбука">
+                            </div>
+                       </div>
+                   </div>
+                   <div class="footer__for">
+                     <h4 class="footer__for-title">For Clients</h4>
+                     <ul class="footer__for-links">
+                       <li>Find Freelancers</li>
+                       <li>Post Project</li>
+                       <li>Refund Policy</li>
+                       <li>Privacy Policy</li>
+                     </ul>
+                   </div>
+                   <div class="footer__for">
+                    <h4 class="footer__for-title">For Freelancers</h4>
+                    <ul class="footer__for-links">
+                      <li>Find Work</li>
+                      <li>Create Account</li>
+                    </ul>
+                  </div>
+                  <div class="footer__for">
+                    <h4 class="footer__for-title">Call Us</h4>
+                    <ul class="footer__for-links">
+                      <div class="footer__for-links-us"> 
+                        <div class="footer__icon footer__icon-us">
+                            <img src="<%=require('./img/icons/carbon_location.svg')%>" alt="иконка локации - футер">
+                        </div>
+                        Kenya
+                      </div>
+                      <div class="footer__for-links-us">
+                        <div class="footer__icon footer__icon-us">
+                            <img src="<%=require('./img/icons/carbon_phone-voice.svg')%>" alt="иконка телефона - футер">
+                        </div>
+                        +25470000000
+                      </div>
+                      <div class="footer__for-links-us"> 
+                        <div class="footer__icon footer__icon-us">
+                            <img src="<%=require('./img/icons/clarity_email-line.svg')%>" alt="иконка эмейл почты - футер">
+                        </div>
+                        bluelance@gmail.com
+                      </div>
+                    </ul>
+                  </div>
+               </div>
+               <div class="footer__right">2022 Spacelance. All right reserved</div>
+            </div>
+        </footer>
+</body>
+</html>

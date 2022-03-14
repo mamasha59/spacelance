@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    background: url("../img/layout.svg") top no-repeat;
+    color: #252525;
+  }
+  button {
+    font-family: inherit;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+  li {
+    list-style: none;
+  }
+  .container {
+    max-width: 1295px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
